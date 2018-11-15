@@ -1,6 +1,6 @@
 /*
  * Luis Fernández García
- *
+ * Jose María Ruiz Gómez
  **/
 
 #include <iostream>
