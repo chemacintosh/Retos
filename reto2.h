@@ -21,7 +21,7 @@ public:
 
    BonelessStack(const T n);
 
-   //~BonelessStack();
+   ~BonelessStack();
 
    /*
     * @brief Devuelve true si la pila esta vacia (size=0)
