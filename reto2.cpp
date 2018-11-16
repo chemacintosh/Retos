@@ -24,12 +24,17 @@ bool BonelessStack<T>::empty()
    return milista.empty();
 }
 
+template <class T>
+BonelessStack<T>::~BonelessStack()
+{
+   milista.clear();
+}
 
 template<class T>
 int BonelessStack<T>::size()
 {
-   return(milista.size());
-}
+   return(milista.size());       // SI NO FUNCIONA ES
+}                                // POR ESTO ASI Q LO BORRAS
 
 
 template<class T>
